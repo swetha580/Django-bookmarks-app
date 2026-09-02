@@ -1,0 +1,1 @@
+-e "env_bookmarks/\n__pycache__/\n*.pyc\ndb.sqlite3"
