@@ -13,6 +13,9 @@
         {% endif %}
     </span>
   </div>
+  <li {% if section == "images" %}class="selected"{% endif %}>
+    <a href="{% url "images:list" %}">Images</a>
+  </li>
   {% if messages %}
     <ul class="messages">
         {% for message in messages %}
